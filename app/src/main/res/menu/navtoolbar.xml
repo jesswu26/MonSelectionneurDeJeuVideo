@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/id_findGame"
+        android:icon="@drawable/ic_search"
+        android:title="@string/trouver_un_jeu" />
+    <item
+        android:id="@+id/id_mylibrary"
+        android:icon="@drawable/ic_login"
+        android:title="@string/tous_les_jeux" />
+    <item
+        android:id="@+id/id_randomgamemenu"
+        android:icon="@drawable/ic_shuffle"
+        android:title="@string/jeu_al_atoire" />
+    <item
+        android:id="@+id/id_parameters"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/jeu_al_atoire"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/id_Logout"
+        android:icon="@drawable/ic_login"
+        android:title="@string/se_connecter" />
+</menu>

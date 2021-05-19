@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_jeux"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/mes_jeux"
+        app:icon="@android:drawable/ic_menu_compass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_trouver_jeu"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/trouver_un_jeu"
+        app:icon="@android:drawable/ic_menu_search"
+        app:layout_constraintBottom_toTopOf="@+id/btn_jeu_aleatoire"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_jeux" />
+
+    <Button
+        android:id="@+id/btn_jeu_aleatoire"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/jeu_al_atoire"
+        app:icon="@android:drawable/ic_menu_help"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ts_jeux"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ts_jeux"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="150dp"
+        android:text="@string/tous_les_jeux"
+        app:icon="@android:drawable/ic_menu_slideshow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

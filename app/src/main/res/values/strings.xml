@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SelectionneurDeJeuVideo</string>
+    <string name="trouver_un_jeu">Trouver Un Jeu</string>
+    <string name="mes_jeux">Mes Jeux</string>
+    <string name="tous_les_jeux">Tous les Jeux</string>
+    <string name="jeu_al_atoire">Jeu Aléatoire</string>
+    <string name="cat_gories_de_jeux">Catégories de Jeux</string>
+    <string name="ind_pendant">Indépendant</string>
+    <string name="action">Action</string>
+    <string name="budget">Budget</string>
+    <string name="fps">FPS</string>
+    <string name="rpg">RPG</string>
+    <string name="gestion">Gestion</string>
+    <string name="strat_gie">Stratégie</string>
+    <string name="course">Course</string>
+    <string name="sport">Sport</string>
+    <string name="simulation">Simulation</string>
+    <string name="aventure">Aventure</string>
+    <string name="multijoueurs">Multijoueurs</string>
+    <string name="ma_biblioth_que_de_jeux">Ma bibliothèque de jeux</string>
+    <string name="mon_jeu_au_hasard">Mon Jeu au hasard</string>
+    <string name="im">im</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="inscription_via_google">Inscription via Google</string>
+    <string name="inscription_via_facebook">Inscription via Facebook</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="d_j_inscrit_connexion">Déjà inscrit? Connexion</string>
+    <string name="jeuprpos">jeuprpos</string>
+    <string name="todo">TODO</string>
+    <string name="description_du_jeu">description_du_jeu</string>
+    <string name="crietres_selection">crietres_selection</string>
+    <string name="ajouter_favoris">ajouter_favoris</string>
+    <string name="ajouter_ma_biblioth_que">ajouter_ma_biblioth_que</string>
+    <string name="titre_du_jeu">titre_du_jeu</string>
+    <string name="jeupropose">jeupropose</string>
+    <string name="page_tous_les_jeux">Tous les jeux</string>
+</resources>
